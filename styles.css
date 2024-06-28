@@ -25,8 +25,12 @@ ul{
 a{
     text-decoration: none;
     color: #e5e7eb;
+    font-weight: 700;
 }
 
+a:hover{
+    color:#3882F6;
+}
 .mainPage{
     background-color: #1F2937;
     justify-content: space-between;
@@ -34,6 +38,9 @@ a{
     display: flex;
     padding: 80px;
     gap: 50px;
+}
+.catLogo{
+    width: 5em;
 }
 .content{
     display: flex;
@@ -66,10 +73,10 @@ h2{
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    
+    margin-top: 12px;
 }
 p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .randomInformation{
@@ -87,6 +94,7 @@ p{
     flex: 1;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .cat{
